@@ -1,0 +1,257 @@
+	ul{
+		padding-left: 10px;
+		list-style: none;
+	}
+
+	li{
+		font-size: 5rem;
+		display: inline;
+		padding: .2em .2em;
+		
+	}
+
+	#title11{
+		width: 80%;
+	}
+	.div11{
+		display: inline;
+		margin-right: 30px;
+	}
+
+
+
+	#main1{
+		color: black;
+		background-color: white;
+		padding-right: 30px;
+		padding-left: 30px;
+		text-align: center;
+		border: 0.5px solid black;
+	}
+
+	#page{
+		display: none;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+
+	#main{
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		height: 500px;
+	}
+
+
+	#main{
+		width: 80%;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+
+	#main>div{
+		width:50%;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+		display: inline;
+	}
+
+
+	#main>div{
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		height: 100px;
+
+	}
+	
+
+	#aaa{
+		color: white;
+		background-color: black;
+		text-align: center;
+		border: 0.5px solid black;
+		width: 80%;
+		height: 70px;
+		text-align: center;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+
+
+	#asd11{
+		-webkit-order: 2;
+
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		width: 80%;
+		height: 400px;
+		text-align: center;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+
+	#asd22{
+		-webkit-order: 1;
+
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		width: 80%;
+		height: 100px;
+		text-align: center;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+	}
+
+
+	.main123{
+		width: 100%;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 991px){
+	
+	.title{
+		height: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 991px;
+		margin-top: 50px;
+	}
+
+	ul{
+		padding-left: 10px;
+		list-style: none;
+	}
+
+	li{
+		font-size: 5rem;
+		display: inline;
+		padding: .2em .2em;
+		
+	}
+
+	#title11{
+		width: 991px;
+	}
+	.div11{
+		display: inline;
+		margin-right: 30px;
+	}
+	#main1{
+		color: black;
+		background-color: white;
+		padding-right: 30px;
+		padding-left: 30px;
+		text-align: center;
+		border: 0.5px solid black;
+	}
+	#page{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	#main{
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		height: 400px;
+	}
+
+
+	#main{
+		width: 991px;
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+	
+	.asd11{
+		color: black;
+		background-color: white;
+		text-align: center;
+		float: right;
+		border: 0.5px solid black;
+		height: 400px;	
+		width: 85%;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+	.asd22{
+		color: black;
+		background-color: white;
+		text-align: center;
+		float: right;
+		border: 0.5px solid black;
+		height: 300px;	
+		width: 25%;
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+		position: absolute;
+	}
+	.main123{
+		width: 991px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+
+}

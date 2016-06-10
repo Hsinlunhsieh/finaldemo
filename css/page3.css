@@ -1,0 +1,245 @@
+	ul{
+		padding-left: 10px;
+		list-style: none;
+	}
+
+	li{
+		font-size: 5rem;
+		display: inline;
+		padding: .2em .2em;
+		
+	}
+
+	#title11{
+		width: 80%;
+	}
+	.div11{
+		display: inline;
+		margin-right: 30px;
+	}
+	#main1{
+		color: black;
+		background-color: white;
+		padding-right: 30px;
+		padding-left: 30px;
+		text-align: center;
+		border: 0.5px solid black;
+	}
+	#page{
+		display: none;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	#main{
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		height: 400px;
+	}
+
+
+	#main{
+		width: 80%;
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+
+
+	#main11{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 100px;
+		width: 80%;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 40px;
+	}
+
+	#main22{
+
+		width: 100%;
+		color: black;
+		float: right;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 250px;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-bottom: 40px;
+	}	
+	#main33{
+
+		width: 100%;
+		float: left;
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 250px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-bottom: 10px;
+	}
+	.asd{
+		width: 80%;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+		display: block; /* Safari */
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 991px){
+	
+	.title{
+		height: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 991px;
+		margin-top: 50px;
+	}
+
+	ul{
+		padding-left: 10px;
+		list-style: none;
+	}
+
+	li{
+		font-size: 5rem;
+		display: inline;
+		padding: .2em .2em;
+		
+	}
+
+	#title11{
+		width: 991px;
+	}
+	.div11{
+		display: inline;
+		margin-right: 30px;
+	}
+	#main1{
+		color: black;
+		background-color: white;
+		padding-right: 30px;
+		padding-left: 30px;
+		text-align: center;
+		border: 0.5px solid black;
+	}
+	#page{
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	#main{
+		color: black;
+		background-color: white;
+		text-align: center;
+		border: 0.5px solid black;
+		height: 400px;
+	}
+
+
+	#main{
+		width: 991px;
+		margin-top: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+
+
+	#main11{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 100px;
+		width: 991px;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 40px;
+	}
+
+	#main22{
+		width: 60%;
+		color: black;
+		float: right;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 250px;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}	
+	#main33{
+		width: 35%;
+		float: left;
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 250px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-bottom: 10px;
+	}
+	.asd{
+		width: 991px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+	}
+
+}
