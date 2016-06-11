@@ -1,17 +1,31 @@
+		.title{
+		height: 50px;
+		display: flex;
+		flex-wrap: wrap;
+		
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		margin-top: 50px;
+	}
+
+
+
+
 	ul{
 		padding-left: 10px;
 		list-style: none;
 	}
 
 	li{
-		font-size: 5rem;
+		font-size: 2rem;
 		display: inline;
 		padding: .2em .2em;
 		
 	}
 
 	#title11{
-		width: 80%;
+		width: 100%;
 	}
 	.div11{
 		display: inline;
@@ -63,12 +77,21 @@
 		margin-right: auto;
 		margin-bottom: 40px;
 	}
+	
 
-	#main22{
 
+
+	.asd{
+		width: 80%;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 100px;
+		flex-direction:column-reverse;
+	}
+	#main22{		
 		width: 100%;
 		color: black;
-		float: right;
 		background-color: white;
 		border: 0.5px solid black;
 		height: 250px;
@@ -76,10 +99,8 @@
 		margin-right: auto;
 		margin-bottom: 40px;
 	}	
-	#main33{
-
+	#main33{	
 		width: 100%;
-		float: left;
 		color: black;
 		background-color: white;
 		border: 0.5px solid black;
@@ -88,14 +109,7 @@
 		margin-left: auto;
 		margin-bottom: 10px;
 	}
-	.asd{
-		width: 80%;
-		margin-top: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 100px;
-		display: block; /* Safari */
-	}
+
 
 
 
@@ -176,6 +190,7 @@
 	}
 	#page{
 		background-color: black;
+		display: inline;
 		color: white;
 		text-align: center;
 		padding-right: 15px;
@@ -243,3 +258,4 @@
 	}
 
 }
+
