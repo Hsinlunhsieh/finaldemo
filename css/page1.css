@@ -1,4 +1,4 @@
-		.title{
+	.title{
 		height: 50px;
 		display: flex;
 		flex-wrap: wrap;
@@ -8,9 +8,6 @@
 		width: 80%;
 		margin-top: 50px;
 	}
-
-
-
 
 	ul{
 		padding-left: 10px;
@@ -105,7 +102,8 @@
 		margin-right: auto;
 		margin-bottom: 50px;
 	}
-	}
+	
+	
 
 
 
@@ -172,6 +170,7 @@
 		padding-left: 30px;
 		text-align: center;
 		border: 0.5px solid black;
+		font-size:5rem;
 	}
 	#page{
 		background-color: black;
@@ -204,3 +203,8 @@
 
 
 }
+
+
+
+transition
+
