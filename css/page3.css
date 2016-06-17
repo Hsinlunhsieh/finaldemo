@@ -1,12 +1,75 @@
+.big{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+		width: 80%;
+	}	
+
+	#main11{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		order: -1;
+		width: 100%;
+		height: 200px;
+		padding-bottom: 10px;
+
+	}
+	#main33{
+		order: 1;
+		width: 50%;
+		height: 200px;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+	#main22{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		order: 2;
+		width: 50%;
+		height: 200px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+
+	@media screen and (max-width: 991px){
+	.big{
+		width: 80%;
+	}
+	#main11{
+		order: 1;
+		width: 100%;
+		height: 200px;
+	}
+	#main33{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		order: -1;
+		width: 100%;
+		height: 100px;
+	}
+	#main22{
+		order: 2;
+		width: 100%;
+		height: 100px;
+	}
+}
+
+
+/*---------------------------*/
 		.title{
 		height: 50px;
 		display: flex;
 		flex-wrap: wrap;
-		
 		margin-left: auto;
 		margin-right: auto;
 		width: 80%;
 		margin-top: 50px;
+		margin-bottom: 50px;
 	}
 
 
@@ -24,9 +87,13 @@
 		
 	}
 
+
+
 	#title11{
 		width: 100%;
+		margin-bottom: 10px; 
 	}
+
 	.div11{
 		display: inline;
 		margin-right: 30px;
@@ -47,106 +114,6 @@
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-
-	#main{
-		color: black;
-		background-color: white;
-		text-align: center;
-		border: 0.5px solid black;
-		height: 400px;
-	}
-
-
-	#main{
-		width: 80%;
-		margin-top: 100px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 100px;
-	}
-
-
-	#main11{
-		color: black;
-		background-color: white;
-		border: 0.5px solid black;
-		height: 100px;
-		width: 80%;
-		margin-top: 50px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 40px;
-	}
-	
-
-
-
-	.asd{
-		width: 80%;
-		margin-top: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 100px;
-		flex-direction:column-reverse;
-	}
-	#main22{		
-		width: 100%;
-		color: black;
-		background-color: white;
-		border: 0.5px solid black;
-		height: 250px;
-		margin-top: 10px;
-		margin-right: auto;
-		margin-bottom: 40px;
-	}	
-	#main33{	
-		width: 100%;
-		color: black;
-		background-color: white;
-		border: 0.5px solid black;
-		height: 250px;
-		margin-top: 10px;
-		margin-left: auto;
-		margin-bottom: 10px;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 991px){
 	
@@ -214,48 +181,49 @@
 		margin-bottom: 100px;
 	}
 
-
-	#main11{
-		color: black;
-		background-color: white;
-		border: 0.5px solid black;
-		height: 100px;
-		width: 991px;
-		margin-top: 50px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 40px;
-	}
-
-	#main22{
-		width: 60%;
-		color: black;
-		float: right;
-		background-color: white;
-		border: 0.5px solid black;
-		height: 250px;
-		margin-top: 10px;
-		margin-right: auto;
-		margin-bottom: 100px;
-	}	
 	#main33{
-		width: 35%;
-		float: left;
+		display: flex;
+		flex-wrap: wrap;
+		height: auto;
+	}
+
+	#main33-1{
 		color: black;
 		background-color: white;
 		border: 0.5px solid black;
-		height: 250px;
-		margin-top: 10px;
-		margin-left: auto;
+		height: 50%;
+		width:50%;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+
+		#main33-2{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 50%;
+		width:50%;
+		box-sizing: border-box;
+	}
+
+		#main33-3{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 50%;
+		width:50%;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+
+		#main33-4{
+		color: black;
+		background-color: white;
+		border: 0.5px solid black;
+		height: 50%;
+		width:50%;
 		margin-bottom: 10px;
+		box-sizing: border-box;
 	}
-	.asd{
-		width: 991px;
-		margin-top: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 100px;
-	}
-
 }
-
